@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <map>
 #include <string>
 #include <windows.h>
 #include "FailedToOpenWindowException.h"
@@ -10,5 +11,6 @@ public:
     HWND GetHandle();
 
 private:
+    static std::map<HWND, Window *> windows;
     HWND handle;
 };

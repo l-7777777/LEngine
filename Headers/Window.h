@@ -10,5 +10,6 @@ public:
     HWND GetHandle();
 
 private:
+    static std::map<HWND, Window *> windows;
     HWND handle;
 };

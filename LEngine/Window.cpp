@@ -38,6 +38,8 @@ Window::Window(std::wstring text, bool fullscreen)
         throw FailedToOpenWindowException();
     }
 
+    windows.insert_or_assign(handle, this);
+
     ShowWindow(handle, fullscreen ? SW_MAXIMIZE : SW_NORMAL);
     
     while (true)
