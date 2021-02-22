@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include <string>
+#include <map>
 #include <windows.h>
 #include "FailedToOpenWindowException.h"
 

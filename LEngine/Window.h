@@ -14,3 +14,5 @@ private:
     static std::map<HWND, Window *> windows;
     HWND handle;
 };
+
+std::map<HWND, Window *> Window::windows = std::map<HWND, Window *>();
