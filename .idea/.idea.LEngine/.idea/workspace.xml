@@ -4,11 +4,17 @@
     <projectFile>Test/Test.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25310089-d713-48f7-bbf4-fe90c21e0815" name="Default Changelist" comment="" />
+    <list default="true" id="25310089-d713-48f7-bbf4-fe90c21e0815" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/include/vcruntime_new.h" root0="SKIP_HIGHLIGHTING" />
@@ -31,9 +37,11 @@
       <option value="$PROJECT_DIR$/LEngine/Window.h" />
       <option value="$PROJECT_DIR$/Headers/Window.h" />
       <option value="$PROJECT_DIR$/LEngine/Window.cpp" />
+      <option value="$PROJECT_DIR$/.gitignore" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oiT4v323e1oGNKjGCw2PJR92hZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +51,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C++" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -77,6 +86,7 @@
       <workItem from="1613768226684" duration="7457000" />
       <workItem from="1613855961605" duration="1620000" />
       <workItem from="1613971868488" duration="6257000" />
+      <workItem from="1614025938420" duration="342000" />
     </task>
     <servers />
   </component>
