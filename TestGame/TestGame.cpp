@@ -5,7 +5,7 @@
 int main(int argc, char* argv[])
 {
     std::cout << "E" << '\n';
-    Window window(L"Some Window", false);
+    Window window(L"Some Window", true);
     Window window2(L"Some other Window", true);
     std::cout << "E" << '\n';
     return 0;

@@ -7,6 +7,7 @@ class Window
 {
 public:
     Window(std::wstring text, bool fullscreen);
+    HWND GetHandle();
 
 private:
     HWND handle;

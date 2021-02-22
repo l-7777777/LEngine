@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25310089-d713-48f7-bbf4-fe90c21e0815" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEngine/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/Window.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEngine/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/Window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.idb" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/Window.obj" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/Window.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGame/TestGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/TestGame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.obj" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/LEngine.lib" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LEngine.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/LEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/TestGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/TestGame.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/TestGame.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/TestGame.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/TestGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/TestGame.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +48,11 @@
       <option value="$PROJECT_DIR$/LEngine/Exception.h" />
       <option value="$PROJECT_DIR$/LEngine/LEngine.h" />
       <option value="$PROJECT_DIR$/Headers/Exception.h" />
+      <option value="$PROJECT_DIR$/.gitignore" />
       <option value="$PROJECT_DIR$/TestGame/TestGame.cpp" />
       <option value="$PROJECT_DIR$/LEngine/Window.h" />
       <option value="$PROJECT_DIR$/Headers/Window.h" />
       <option value="$PROJECT_DIR$/LEngine/Window.cpp" />
-      <option value="$PROJECT_DIR$/.gitignore" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oiT4v323e1oGNKjGCw2PJR92hZ" />
@@ -53,6 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C++" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -86,8 +102,16 @@
       <workItem from="1613768226684" duration="7457000" />
       <workItem from="1613855961605" duration="1620000" />
       <workItem from="1613971868488" duration="6257000" />
-      <workItem from="1614025938420" duration="342000" />
+      <workItem from="1614025938420" duration="1344000" />
     </task>
+    <task id="LOCAL-00001" summary="Add .gitignore">
+      <created>1614026303759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614026303759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +121,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

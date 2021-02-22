@@ -24,7 +24,7 @@ Window::Window(std::wstring text, bool fullscreen)
     handle = CreateWindowEx(0,
         L"LEngineWindow",
         text.c_str(),
-        fullscreen ? WS_OVERLAPPEDWINDOW ^ WS_BORDER : WS_OVERLAPPEDWINDOW | CS_OWNDC,
+        fullscreen ? WS_POPUP : WS_OVERLAPPEDWINDOW | CS_OWNDC,
 
         CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
 
@@ -35,14 +35,18 @@ Window::Window(std::wstring text, bool fullscreen)
 
     if (handle == nullptr)
     {
-        throw new FailedToOpenWindowException();
+        throw FailedToOpenWindowException();
     }
 
     ShowWindow(handle, fullscreen ? SW_MAXIMIZE : SW_NORMAL);
     
-    MSG msg;
-    while (GetMessage(&msg, handle, 0, 0))
+    while (true)
     {
-        
+        Sleep(100);
     }
+}
+
+HWND Window::GetHandle()
+{
+    return handle;
 }
