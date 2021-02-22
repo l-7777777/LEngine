@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\lysan\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\lysan\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_LEngine.2042932862.00" t="ExcludeRecursive" />
+    <e p="C:\Users\lysan\OneDrive\Desktop\LEngine" t="IncludeFlat">
+      <e p="LEngine" t="IncludeRecursive">
+        <e p="Exception.h" t="Include" />
+        <e p="FailedToOpenWindowException.h" t="Include" />
+        <e p="Game.cpp" t="Include" />
+        <e p="Game.h" t="Include" />
+        <e p="GameType.h" t="Include" />
+        <e p="LEngine.vcxproj" t="IncludeRecursive" />
+        <e p="Window.cpp" t="Include" />
+        <e p="Window.h" t="Include" />
+        <e p="x64\Debug" t="ExcludeRecursive" />
+      </e>
+      <e p="LEngine.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TestGame" t="IncludeRecursive">
+        <e p="TestGame.cpp" t="Include" />
+        <e p="TestGame.vcxproj" t="IncludeRecursive" />
+        <e p="x64\Debug" t="ExcludeRecursive" />
+      </e>
+      <e p="x64\Debug" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
