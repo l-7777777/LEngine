@@ -6,29 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="25310089-d713-48f7-bbf4-fe90c21e0815" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Window.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/LEngine.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/LEngine.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/Window.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/Window.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/Window.h" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/Window.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.idb" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/LEngine/x64/Debug/LEngine.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LEngine/x64/Debug/Window.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/TestGame.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/TestGame.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.obj" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/TestGame.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestGame/x64/Debug/vc142.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/LEngine.lib" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LEngine.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/LEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/LEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/TestGame.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/TestGame.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/TestGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/TestGame.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +34,11 @@
       <option value="$PROJECT_DIR$/LEngine/LEngine.h" />
       <option value="$PROJECT_DIR$/Headers/Exception.h" />
       <option value="$PROJECT_DIR$/.gitignore" />
-      <option value="$PROJECT_DIR$/TestGame/TestGame.cpp" />
       <option value="$PROJECT_DIR$/LEngine/Window.cpp" />
       <option value="$PROJECT_DIR$/Headers/Window.h" />
       <option value="$PROJECT_DIR$/LEngine/Window.h" />
+      <option value="$PROJECT_DIR$/README.md" />
+      <option value="$PROJECT_DIR$/TestGame/TestGame.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oiT4v323e1oGNKjGCw2PJR92hZ" />
@@ -110,7 +88,7 @@
       <workItem from="1613768226684" duration="7457000" />
       <workItem from="1613855961605" duration="1620000" />
       <workItem from="1613971868488" duration="6257000" />
-      <workItem from="1614025938420" duration="2747000" />
+      <workItem from="1614025938420" duration="3163000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore">
       <created>1614026303759</created>
@@ -133,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614028160009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix bugs">
+      <created>1614028858535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614028858536</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +131,19 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Add basic loop" />
     <MESSAGE value="Static `std::map` of `&lt;HWND, Window *&gt;` (windows currently open)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static `std::map` of `&lt;HWND, Window *&gt;` (windows currently open)" />
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LEngine/Window.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
