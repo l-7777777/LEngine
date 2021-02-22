@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25310089-d713-48f7-bbf4-fe90c21e0815" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
       <option value="$PROJECT_DIR$/LEngine/Window.cpp" />
       <option value="$PROJECT_DIR$/Headers/Window.h" />
       <option value="$PROJECT_DIR$/LEngine/Window.h" />
-      <option value="$PROJECT_DIR$/README.md" />
       <option value="$PROJECT_DIR$/TestGame/TestGame.cpp" />
+      <option value="$PROJECT_DIR$/README.md" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oiT4v323e1oGNKjGCw2PJR92hZ" />
@@ -88,7 +88,7 @@
       <workItem from="1613768226684" duration="7457000" />
       <workItem from="1613855961605" duration="1620000" />
       <workItem from="1613971868488" duration="6257000" />
-      <workItem from="1614025938420" duration="3163000" />
+      <workItem from="1614025938420" duration="3350000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore">
       <created>1614026303759</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614028858536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add README">
+      <created>1614029258928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614029258928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +139,8 @@
     <MESSAGE value="Add basic loop" />
     <MESSAGE value="Static `std::map` of `&lt;HWND, Window *&gt;` (windows currently open)" />
     <MESSAGE value="Fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+    <MESSAGE value="Add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
