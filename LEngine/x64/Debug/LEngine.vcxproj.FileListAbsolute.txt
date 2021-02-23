@@ -1,2 +1,0 @@
-C:\Users\lysan\OneDrive\Desktop\LEngine\x64\Debug\LEngine.pdb
-C:\Users\lysan\OneDrive\Desktop\LEngine\LEngine\x64\Debug\LEngine.pdb
