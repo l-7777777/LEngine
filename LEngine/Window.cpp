@@ -2,15 +2,37 @@
 
 #include <iostream>
 #include <map>
+#include <string>
 
 LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
+    switch (uMsg)
+    {
+        case WM_PAINT:
+            {
+                PAINTSTRUCT ps;
+                HDC hdc = BeginPaint(hWnd, &ps);
+
+                Window *window = Window::windows[hWnd];
+
+                RECT windowRect = ps.rcPaint;
+                if (window->fullscreen)
+                {
+                    windowRect = {0, 0, GetSystemMetrics(SM_CXSCREEN), GetSystemMetrics(SM_CYSCREEN)};
+                }
+
+                FillRect(hdc, &windowRect, (HBRUSH)(COLOR_WINDOW+1));
+
+                EndPaint(hWnd, &ps);
+            }
+            return 0;
+    }
     return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
 
-Window::Window(std::wstring text, bool fullscreen)
+void Window::Constructor(std::wstring text, bool fullscreen)
 {
-    std::cout << "E" << '\n';
+    this->fullscreen = fullscreen;
     
     WNDCLASS wndClass;
     if (!GetClassInfo(nullptr, L"LEngineWindow", &wndClass))
@@ -40,13 +62,31 @@ Window::Window(std::wstring text, bool fullscreen)
     }
 
     windows.insert_or_assign(handle, this);
-
-    ShowWindow(handle, fullscreen ? SW_MAXIMIZE : SW_NORMAL);
     
-    while (true)
+    SetCursor(LoadCursor(nullptr, IDC_ARROW));
+    ShowWindow(handle, fullscreen ? SW_MAXIMIZE : SW_NORMAL);
+
+    MSG msg;
+    while (GetMessage(&msg, nullptr, 0, 0))
     {
-        Sleep(100);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
+}
+
+DWORD WINAPI RunConstructor(LPVOID lParam)
+{
+    Window *window = (Window *)lParam;
+    window->Constructor(window->text, window->fullscreen);
+    return 0;
+}
+
+Window::Window(std::wstring text, bool fullscreen)
+{
+    this->text = text;
+    this->fullscreen = fullscreen;
+    
+    CreateThread(nullptr, 0, RunConstructor, this, 0, nullptr);
 }
 
 HWND Window::GetHandle()
