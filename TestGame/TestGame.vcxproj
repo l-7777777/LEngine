@@ -158,9 +158,9 @@
     <ClCompile Include="TestGame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LEngine\LEngine.vcxproj">
+    <ProjectReference Include="..\VoidP\VoidP.vcxproj">
       <Project>{79a12249-1c78-4757-9042-1fb5e51ee4df}</Project>
-      <Name>LEngine</Name>
+      <Name>VoidP</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

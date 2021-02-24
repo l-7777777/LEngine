@@ -1,8 +1,10 @@
 ﻿#include "Window.h"
 
+#include <stdexcept>
 #include <iostream>
 #include <map>
 #include <string>
+#include <thread>
 
 LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
@@ -25,7 +27,38 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
                 EndPaint(hWnd, &ps);
             }
-            return 0;
+        return 0;
+        case WM_KEYDOWN:
+            {
+                Window *window = Window::windows[hWnd];
+                Game *game = window->game;
+                if (game != nullptr)
+                {
+                    game->ReceiveInput(InputType::KeyDown, wParam, lParam & 0xFFFF, lParam & 0x0000FF);
+                }
+            }
+        return 0;
+        case WM_KEYUP:
+            {
+                Window *window = Window::windows[hWnd];
+                Game *game = window->game;
+                if (game != nullptr)
+                {
+                    game->ReceiveInput(InputType::KeyUp, wParam, lParam & 0xFFFF, lParam & 0x0000FF);
+                }
+            }
+        return 0;
+        case WM_CHAR:
+            {
+                Window *window = Window::windows[hWnd];
+                Game *game = window->game;
+                if (game != nullptr)
+                {
+                    game->ReceiveInput(InputType::KeyPress, wParam, lParam & 0xFFFF, lParam & 0x0000FF);
+                    game->ReceiveInput(InputType::Character, wParam, lParam & 0xFFFF, lParam & 0x0000FF);
+                }
+            }
+        return 0;
     }
     return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
@@ -74,19 +107,16 @@ void Window::Constructor(std::wstring text, bool fullscreen)
     }
 }
 
-DWORD WINAPI RunConstructor(LPVOID lParam)
-{
-    Window *window = (Window *)lParam;
-    window->Constructor(window->text, window->fullscreen);
-    return 0;
-}
-
 Window::Window(std::wstring text, bool fullscreen)
 {
     this->text = text;
     this->fullscreen = fullscreen;
-    
-    CreateThread(nullptr, 0, RunConstructor, this, 0, nullptr);
+
+    std::thread thread([&text, &fullscreen, this]() {
+        Constructor(text, fullscreen);
+    });
+
+    thread.join();
 }
 
 HWND Window::GetHandle()

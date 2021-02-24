@@ -163,6 +163,7 @@
     <ClInclude Include="FailedToOpenWindowException.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameType.h" />
+    <ClInclude Include="InputType.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
